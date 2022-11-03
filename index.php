@@ -62,6 +62,7 @@ function veranderKleur(kleur) {
 
     </script>
 
+<h2> Hallo, <?php echo $name ?></h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name">
   <span class="error">* <?php echo $nameErr;?></span>
@@ -102,4 +103,5 @@ function veranderKleur(kleur) {
         <input type="checkbox" id="L" name="rating" value="dgroen">
     </div>
 </body>
+</html>
 </html>
